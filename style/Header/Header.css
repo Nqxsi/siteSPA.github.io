@@ -139,10 +139,3 @@
 		font-size: 16pt;
 	}
 }
-
-/* fonts */
-
-@font-face {
-	font-family: 'gogol';
-	src: url('/fonts/gogol_regular.otf') format('opentype');
-}
