@@ -1,0 +1,40 @@
+.carousel-item {
+    height: 600px;
+    background-color: black; 
+    border-radius: 20px;   
+}
+
+.carousel-item img {
+    height: 600px;
+    width: auto;
+    opacity: 0.7;
+}
+
+.carousel-caption h5 {
+    font-family: Bw;
+    font-size: 31pt;
+}
+
+.carousel-caption p {
+    font-family: MiniBw;
+    font-size: 19pt;
+}
+
+.carousel-caption {
+    bottom: 9rem;
+}
+
+.aCarousel {
+    font-family: MiniBw;
+    color: black;
+    font-size: 14pt;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: none;
+    padding: 10px 45px;
+    transition: 0.3s;
+}
+
+.aCarousel:hover {
+    font-size: 20pt;
+}

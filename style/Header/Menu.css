@@ -1,0 +1,78 @@
+.header {
+	position: sticky;
+	top: 15px;
+	transition: 1s;
+	background-color: #fff;
+	border-radius: 70px;
+    margin: 0px 30px;
+	z-index: 99;
+    opacity: 0.8;
+}
+
+.headerHidden {
+  transform: translateY(-120%);
+}
+
+.contForBgMenu {
+    position: relative;
+    width: 100%;
+}
+
+.blockBg {
+    position: absolute;
+    background-color: rgba(42, 88, 28, 0.815);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 70px;
+}
+
+.MenuHref {
+    padding: 30px;
+}
+
+.navBarUl {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navLiBar {
+    display: inline-block;
+    margin: 0 16px 0 16px;
+}
+
+.navLiBar a {
+    color: aliceblue;
+    font-family: MiniBw;
+    font-size: 14pt;
+}
+
+.navLiBar:hover {
+    transition: 0.5s;
+    scale: 1.5;
+}
+
+.navLiBar img {
+    width: 250px;
+}
+
+@font-face {
+    font-family: 'Nick';
+    src: url('/fonts/Nikodecs.otf'), format('opentype');
+
+}
+
+@media (max-width: 425px) {
+    .contForBgMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1439px) {
+    .navLiBar img {
+        display: none;
+    }
+}

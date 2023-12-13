@@ -1,0 +1,68 @@
+.headerOurTeam h1 {
+    font-family: Bw;
+    font-size: 50pt;
+	font-weight: 600;
+}
+
+.headerOurTeam h2 {
+    font-family: MiniBw;
+    margin-bottom: 90px;
+}
+
+.headerTextTeam {
+    font-family: MiniBw;
+}
+
+.blockCardTeam img {
+    width: 100%;
+}
+
+.blockCardTeam hr {
+    border-color: green;
+    border-width: 3px;
+    opacity: 0.6;
+    width: 25%;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.blockCardTeam:hover hr {
+    transform: translateX(300px);
+    margin: 25px;
+}
+
+.blockCardTeam p {
+    font-family: MiniBw;
+}
+
+.headerTextTeam h3 {
+    color: rgba(10, 10, 10, 0.425);
+}
+
+#contTeam {
+    padding-bottom: 150px;
+}
+
+.hideContainer {
+    display: none;
+}
+
+#clickToHide {
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: MiniBw;
+    font-weight: 500;
+    transition: .3s;
+}
+
+#clickToHide:hover {
+    background: linear-gradient(to right, grey, 20%, white);
+    scale: 1.04;
+}
+
+@media (max-width: 1024px) {
+    #contTeam {
+        padding-bottom: 50px;
+    }
+}

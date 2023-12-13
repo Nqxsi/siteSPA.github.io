@@ -1,0 +1,148 @@
+
+.imgSize img {
+	width: 5rem;
+}
+
+.ConteinerHeaderPhoneIcon {
+	display: flex;
+	gap: 8px;
+}
+
+.IconImgConteinerPhone {
+	display: flex;
+	align-items: center;
+}
+
+.NumberTelHeader {
+	padding: 0;
+}
+
+.NumberTelHeader a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #000000;
+}
+
+.NameGeo {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+
+.ConteinerAForNumberHeader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(66, 139, 44, 0.815);
+	border-radius: 99px;
+	padding: 11px;
+}
+
+.blockWhithA {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blockWhithA a {
+	text-decoration: none;
+	color: #fff;
+	font-family: gogol;
+	font-weight: 500;
+	font-size: 24pt;
+}
+
+.btn-primary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: none;
+	border: none;
+	color: #000 !important;
+}
+
+.btn-primary:hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: none;
+	border: none;
+	color: #000 !important;
+}
+
+.btn-primary:active {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: none;
+	border: none;
+	color: #000 !important;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+	background: none;
+	border: none;
+}
+
+.blockWhithA span {
+	font-weight: 200;
+	font-size: 10pt;
+	width: 25px;
+	display: block;
+	background-color: #000;
+	height: 1px;
+	margin: 5px 0px;
+}
+
+/* mix-width */
+
+@media (max-width: 990px) {
+	.textIconGeo {
+		display: none;
+	}
+}
+
+@media (min-width: 426px) {
+	.btn-primary {
+		display: none;
+	}
+}
+
+@media (min-width: 0px) {
+	.bloclWhithIMG {
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.bloclWhithIMG {
+		display: block;
+	}
+}
+
+/* max-width */
+
+@media (max-width: 1400px) {
+	.blockWhithA a {
+		font-size: 18pt;
+	}
+}
+
+@media (max-width: 1200px) {
+	.blockWhithA a {
+		font-size: 16pt;
+	}
+}
+
+/* fonts */
+
+@font-face {
+	font-family: 'gogol';
+	src: url('/fonts/gogol_regular.otf') format('opentype');
+}

@@ -1,0 +1,11 @@
+.GeoInfo a, .GeoInfo p {
+    color: black;
+    font-family: MiniBw;
+    font-weight: 500;
+    padding: 6px;
+}
+
+.officialCopyright {
+    text-align: left;
+    font-size: 10pt;
+}

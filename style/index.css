@@ -1,0 +1,74 @@
+body a {
+	text-decoration: none;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+
+}
+
+body img {
+    border-radius: 20px;
+}
+
+.backTop {
+    display: none;
+    background-color: rgba(66, 139, 44, 0.815);
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 11pt;
+    width: 50px;
+    padding: 10px;
+    position: fixed;
+	right: 2rem;
+	bottom: 4rem;
+    z-index: 99;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(66, 139, 44, 0.815);
+}
+
+.offcanvas-header>img {
+    width: 75px;
+}
+
+.offcanvas-body hr {
+    border-color: rgba(66, 139, 44, 0.938);
+    border-width: 2.5px;
+    opacity: 0.8;
+}
+
+.offcanvas-body ul {
+    list-style: none;
+}
+
+.offcanvas-body ul li {
+    font-family: MiniBw;
+    font-size: 15pt;
+    padding: 10px 5px;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.offcanvas-body ul li:hover {
+    background-color: rgba(66, 139, 44, 0.815);
+    color: aliceblue;
+}
+
+.offcanNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: black;
+    font-family: MiniBw;
+    justify-content: center;
+    align-items: center;
+}
+
+.offcanNumber a {
+    color: black;
+}
