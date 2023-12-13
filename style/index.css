@@ -72,3 +72,19 @@ footer {
 .offcanNumber a {
     color: black;
 }
+
+/* fonts  */
+
+@font-face {
+	font-family: 'MiniBw';
+	src: url('fonts/BwModelicaCyrillicDEMO-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bw';
+	src: url('fonts/BwModelicaCyrillicDEMO-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
